@@ -88,6 +88,7 @@
     position:relative;
     left:20px;
     display: flex;
+
     /*flex-direction: row;
     column-gap: 40px;*/
         
@@ -116,14 +117,15 @@
     border-radius: 3px;    
 }
 
-/* Item_4 and Square_3 properties 
+ /*Item_4 and Square_3 properties */
 
-.flexitem_Dd {
-    position:relative ;
-    margin-left:600px;
+ .flexitem_Dd {
+    position:relative;
+    margin-left: 500px;
+    margin-top: -150px ;
+   
+
     
-    display: flex;
-    flex-direction: row;   
 }
 
 
