@@ -6,9 +6,20 @@
     margin: 20px;
     padding: 20px;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;      
-}   
+    flex-direction: row;
+    flex-wrap: wrap;  
+    position: relative;
+}  
+
+
+.flexitem_Aa {
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    
+}
+
+
 /* Item_1 and Square properties */
 
 .item_1  {
@@ -34,7 +45,17 @@
     border-radius: 3px;    
 }
 
-/* Item_2 and Square_1 properties */
+ /*Item_2 and Square_1 properties */
+
+.flexitem_Bb {
+    position: relative;
+    margin-left:600px;
+    margin-top: 20px;
+    
+}
+
+
+
 .item_2  {
     width: 450px;
     height:120px;
@@ -58,7 +79,14 @@
     border-radius: 3px;    
 }
 
-/* Item_3 and Square_2 properties */
+.flexitem_Cc {
+    position:relative ;
+    margin-left:20px;
+    margin-top: 10px;
+    
+}
+
+ /* Item_3 and Square_2 properties */
 
 .item_3  {
     width: 450px;
@@ -82,7 +110,7 @@
     border-radius: 3px;    
 }
 
-/* Item_4 and Square_3 properties */
+/* Item_4 and Square_3 properties 
 
 .item_4  {
     width: 450px;
@@ -125,7 +153,7 @@
     margin-bottom: 10px;
 }
 
-/* Item_5 and Square_4 properties */
+/* Item_5 and Square_4 properties 
 
 .item_5  {
     width: 450px;
@@ -171,7 +199,7 @@
     color: aliceblue;    
 }
 
-/* Item_6 and Square_5 properties */
+/* Item_6 and Square_5 properties 
 
 .item_6  {
     width: 450px;
@@ -214,7 +242,7 @@
     height: 17px;
     border-radius: 3px;    
 }
- 
+*/ 
     
 
     
