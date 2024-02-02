@@ -88,7 +88,6 @@
     position:relative;
     left:20px;
     display: flex;
-
     /*flex-direction: row;
     column-gap: 40px;*/
         
@@ -123,8 +122,6 @@
     position:relative;
     margin-left: 500px;
     margin-top: -150px ;
-   
-
     
 }
 
@@ -171,7 +168,7 @@
     margin-bottom: 10px;
 }
 
-/* Item_5 and Square_4 properties 
+/* Item_5 and Square_4 properties */
 
 .item_5  {
     width: 450px;
