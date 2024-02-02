@@ -1,14 +1,17 @@
 
 .flex-container {
-    width: 1152px;
-    height: 900px;
+    width: 1030px;
+    height: 500px;
     background: #124ee6;
-    margin: 20px;
-    padding: 20px;
+    margin-top: 80px;
+    margin-left: 220px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;  
-    position: relative;
+    position:absolute;
     
 }   
    
@@ -224,7 +227,17 @@
     color: aliceblue;    
 }
 
-/* Item_6 and Square_5 properties 
+/* Item_6 and Square_5 properties */
+
+.flexitem_Ff {
+    position:relative;
+    margin-left: 500px;
+    margin-top: -150px;
+    
+    /*flex-direction: row;
+    column-gap: 40px;*/
+        
+}
 
 .item_6  {
     width: 450px;
