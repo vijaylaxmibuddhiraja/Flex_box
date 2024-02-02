@@ -11,12 +11,10 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;  
-    position:absolute;
-    
+    position:absolute;    
 }   
    
-
-
+/* Item_1 and Square properties */
 
 .flexitem_Aa {
     position: absolute;
@@ -24,9 +22,6 @@
     top: 20px;  
     flex-direction: row;     
 }
-
-
-/* Item_1 and Square properties */
 
 .item_1  {
     width: 450px;
@@ -51,14 +46,14 @@
     border-radius: 3px;    
 }
 
+
  /*Item_2 and Square_1 properties */
 
 .flexitem_Bb {
     position:relative;
     flex-direction: column;
     margin-left:500px;
-    margin-top: 10px; 
-        
+    margin-top: 10px;         
 }
 
 .item_2  {
@@ -85,18 +80,16 @@
 }
     
 
-
  /*Item_3 and Square_2 properties*/
+
 .flexitem_Cc {
     position:relative;
     left:20px;
     display: flex;
     /*flex-direction: row;
-    column-gap: 40px;*/
-        
+    column-gap: 40px;*/       
 }
  
-
 .item_3  {
     width: 450px;
     height: 120px;
@@ -119,6 +112,7 @@
     border-radius: 3px;    
 }
 
+
  /*Item_4 and Square_3 properties */
 
  .flexitem_Dd {
@@ -127,8 +121,6 @@
     margin-top: -150px ;
     
 }
-
-
 
 .item_4  {
     width: 450px;
@@ -171,6 +163,7 @@
     margin-bottom: 10px;
 }
 
+
 /* Item_5 and Square_4 properties */
 
 .flexitem_Ee {
@@ -182,7 +175,6 @@
         
 }
  
-
 .item_5  {
     width: 450px;
     height: 120px ;
@@ -227,6 +219,7 @@
     color: aliceblue;    
 }
 
+
 /* Item_6 and Square_5 properties */
 
 .flexitem_Ff {
@@ -235,8 +228,7 @@
     margin-top: -150px;
     
     /*flex-direction: row;
-    column-gap: 40px;*/
-        
+    column-gap: 40px;*/        
 }
 
 .item_6  {
@@ -280,7 +272,7 @@
     height: 17px;
     border-radius: 3px;    
 }
-*/ 
+
   
 
     
