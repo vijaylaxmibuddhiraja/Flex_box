@@ -9,14 +9,17 @@
     flex-direction: row;
     flex-wrap: wrap;  
     position: relative;
-}  
+    
+}   
+   
+
 
 
 .flexitem_Aa {
     position: absolute;
     left: 40px;
-    top: 20px;
-    
+    top: 20px;  
+    flex-direction: row;     
 }
 
 
@@ -48,13 +51,12 @@
  /*Item_2 and Square_1 properties */
 
 .flexitem_Bb {
-    position: relative;
-    margin-left:600px;
-    margin-top: 20px;
-    
+    position:relative;
+    flex-direction: column;
+    margin-left:500px;
+    margin-top: 10px; 
+        
 }
-
-
 
 .item_2  {
     width: 450px;
@@ -78,15 +80,19 @@
     height: 50px;
     border-radius: 3px;    
 }
-
-.flexitem_Cc {
-    position:relative ;
-    margin-left:20px;
-    margin-top: 10px;
     
-}
 
- /* Item_3 and Square_2 properties */
+
+ /*Item_3 and Square_2 properties*/
+.flexitem_Cc {
+    position:relative;
+    left:20px;
+    display: flex;
+    /*flex-direction: row;
+    column-gap: 40px;*/
+        
+}
+ 
 
 .item_3  {
     width: 450px;
@@ -111,6 +117,16 @@
 }
 
 /* Item_4 and Square_3 properties 
+
+.flexitem_Dd {
+    position:relative ;
+    margin-left:600px;
+    
+    display: flex;
+    flex-direction: row;   
+}
+
+
 
 .item_4  {
     width: 450px;
@@ -243,7 +259,7 @@
     border-radius: 3px;    
 }
 */ 
-    
+  
 
     
 
