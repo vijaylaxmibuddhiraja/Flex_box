@@ -170,6 +170,16 @@
 
 /* Item_5 and Square_4 properties */
 
+.flexitem_Ee {
+    position:relative;
+    left:20px;
+    display: flex;
+    /*flex-direction: row;
+    column-gap: 40px;*/
+        
+}
+ 
+
 .item_5  {
     width: 450px;
     height: 120px ;
