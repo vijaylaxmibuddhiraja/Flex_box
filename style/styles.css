@@ -1,7 +1,7 @@
 
 .flex-container {
     width: 1030px;
-    height: 500px;
+    height: 600px;
     background: #124ee6;
     margin-top: 80px;
     margin-left: 220px;
@@ -11,21 +11,17 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;  
-    position:absolute;    
 }   
    
 /* Item_1 and Square properties */
 
-.flexitem_Aa {
-    position: absolute;
+.item_1 {
     left: 40px;
     top: 20px;  
     flex-direction: row;     
-}
 
-.item_1  {
     width: 450px;
-    height: 120px ;
+    height: 130px ;
     margin-top: 30px;
     margin-left: 20px;
     background: coral;
@@ -46,19 +42,12 @@
     border-radius: 3px;    
 }
 
-
  /*Item_2 and Square_1 properties */
-
-.flexitem_Bb {
-    position:relative;
-    flex-direction: column;
-    margin-left:500px;
-    margin-top: 10px;         
-}
 
 .item_2  {
     width: 450px;
-    height:120px;
+    height:130px;
+    flex-direction: column;
     margin-top: 30px;
     margin-left: 20px;
     background: coral;
@@ -67,7 +56,7 @@
     display: flex;
     flex-direction: row; 
     justify-content:center; 
-    align-items:center;    
+    align-items:stretch;    
 }
 
 .sq_1 {
@@ -75,24 +64,18 @@
     padding: 20px;
     margin: 10px;
     width: 30px;
-    height: 50px;
+    
+    min-height: 78px;
     border-radius: 3px;    
 }
     
-
  /*Item_3 and Square_2 properties*/
-
-.flexitem_Cc {
-    position:relative;
-    left:20px;
-    display: flex;
-    /*flex-direction: row;
-    column-gap: 40px;*/       
-}
  
 .item_3  {
     width: 450px;
-    height: 120px;
+    height: 130px;
+    left:20px;
+    display: flex;
     margin-top: 30px;
     margin-left: 20px;
     background: coral;
@@ -113,18 +96,11 @@
 }
 
 
- /*Item_4 and Square_3 properties */
-
- .flexitem_Dd {
-    position:relative;
-    margin-left: 500px;
-    margin-top: -150px ;
-    
-}
+ /*Item_4 and Square_3 properties */ 
 
 .item_4  {
     width: 450px;
-    height: 120px ;
+    height: 130px ;
     margin-top:30px;
     margin-left: 20px;
     background: coral;
@@ -165,19 +141,10 @@
 
 
 /* Item_5 and Square_4 properties */
-
-.flexitem_Ee {
-    position:relative;
-    left:20px;
-    display: flex;
-    /*flex-direction: row;
-    column-gap: 40px;*/
-        
-}
  
 .item_5  {
     width: 450px;
-    height: 120px ;
+    height: 130px ;
     margin-top: 30px;
     margin-left: 20px;
     background: coral;
@@ -186,7 +153,7 @@
     display: flex;
     flex-direction: row; 
     justify-content:space-between; 
-    align-items: center;       
+    align-items: baseline;       
 }
 
 .sq_A {
@@ -222,18 +189,9 @@
 
 /* Item_6 and Square_5 properties */
 
-.flexitem_Ff {
-    position:relative;
-    margin-left: 500px;
-    margin-top: -150px;
-    
-    /*flex-direction: row;
-    column-gap: 40px;*/        
-}
-
 .item_6  {
     width: 450px;
-    height: 120px ;
+    height: 130px ;
     margin-top: 30px;
     margin-left: 20px;
     background: coral;
