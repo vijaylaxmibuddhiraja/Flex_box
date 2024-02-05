@@ -16,8 +16,6 @@
 /* Item_1 and Square properties */
 
 .item_1 {
-       
-
     width: 450px;
     height: 130px ;
     margin-top: 30px;
@@ -44,8 +42,7 @@
 
 .item_2  {
     width: 450px;
-    height:130px;
-    flex-direction: column;
+    height:130px;   
     margin-top: 30px;
     margin-left: 20px;
     background: coral;
@@ -62,7 +59,6 @@
     padding: 20px;
     margin: 10px;
     width: 30px;
-    
     min-height: 78px;
     border-radius: 3px;    
 }
