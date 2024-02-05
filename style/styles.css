@@ -16,9 +16,7 @@
 /* Item_1 and Square properties */
 
 .item_1 {
-    left: 40px;
-    top: 20px;  
-    flex-direction: row;     
+       
 
     width: 450px;
     height: 130px ;
